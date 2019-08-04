@@ -1,0 +1,30 @@
+@import './fontawesome.css';
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:400,700&display=swap&subset=latin-ext');
+*{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-display: auto;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+html, body, #root {
+    height: 100%;
+  }
+  #root{
+    display: flex;
+    flex-direction: column;   
+  }
+  .content {
+    flex: 1 0 auto!important;
+    padding: 0!important;
+    margin: 0!important;
+  }
+  .footer {
+    flex-shrink: 0;
+  }
+  li{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }

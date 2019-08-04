@@ -1,0 +1,22 @@
+export const navigationContent = [
+    {
+      id:1,
+      name:"anasayfa",
+      link:"/"
+    },
+    {
+      id:2,
+      name:"hakkımızda",
+      link:"/hakkimizda"
+    },
+    {
+      id:3,
+      name:"eğitimler",
+      link:"/egitim"
+    },
+    {
+      id:4,
+      name:"eğitmenler",
+      link:"/egitmenler"
+    }
+  ]
