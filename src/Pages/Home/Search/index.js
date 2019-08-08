@@ -6,12 +6,11 @@ export default class Index extends Component {
     render() {
         return (
             <SearchWrapper className="container">
-                <SearchContainer className="row w-50">
+                <SearchContainer className="row">
                     <SearchText className="col">
-                        <span>EĞİTİM VERİN, EĞİTİM BULUN!</span>
-                        <p className="mt-2 mb-3">
-                            Duis id cillum duis sint do proident nostrud pariatur ex. Duis id cillum duis
-                            sint do proident nostrud pariatur ex.
+                        <span>GELECEK İÇİN DERS AL!</span>
+                        <p className="mt-2 mb-3 p-0">
+                        Hedeflerinize ulaşmanızı sağlayacak kurslara kaydolun. Kurslar şimdi yalnızca ₺27,49! İndirim, 8 Ağustos saat 23:59'da (PDT) sona erecek.
                         </p>
                     </SearchText>
                     <SearchInput className="col">

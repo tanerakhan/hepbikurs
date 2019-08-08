@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Header from './Header/index'
 import Footer from './Footer/index'
-import About from './Pages/About/index'
+import About from '../Pages/About/index'
 import Signin from './Header/login/Signin/index'
 import Signup from './Header/login/Signup/index'
-import Home from './Pages/Home/index'
+import Home from '../Pages/Home/index'
 import {BrowserRouter as Router, Switch, Redirect, Route} from 'react-router-dom';
 /* import {withRouter} from 'react-router'; */
 class App extends Component {

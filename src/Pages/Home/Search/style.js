@@ -14,19 +14,29 @@ export const SearchWrapper = styled.div `
 export const SearchContainer = styled.div `
 flex-direction:column;
 padding:10px;
+width:50%;
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    width:100%;
+ }
+ @media (max-width: 575.98px) { 
+    width:100%;
+  }
+
 `;
 
 export const SearchText = styled.div `
 span{
-font-size:30px;
+font-size: 40px;
+font-weight: 700;
 color:#fff;
 text-shadow:0px 0px 3px rgba(0,0,0,.4);
 text-transform: uppercase;
 }
 p{
-    background-color:#f5ffa5;
-    padding:10px;
-    border-radius:3px;
+    font-size:20px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
 }
 
 
